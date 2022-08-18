@@ -24,7 +24,7 @@ function verificaNum() {
     let input = document.getElementById('value-sub').value;
 
     if(input == number){
-        palpP.innerHTML = `Acertaste, o número era o ${number}`;
+        palpP.innerHTML = `Acertaste, o número é o ${number}`;
     }
     else if (input < number){
         palpP.innerHTML = "Palpite baixo!";
