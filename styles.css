@@ -7,6 +7,8 @@
 
 body {
     background-color: #5F021F;
+    /*para centrar(body tem que estar centrado para centrar a form*/
+    text-align: center;
 }
 
 header {
@@ -18,4 +20,65 @@ header > h1 {
     color:#5F021F;
     text-align: center;
     font-family: Lato, sans-serif;
+}
+
+form {
+    /*para centrar: */
+    display: inline-block;
+}
+
+p {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.numb-trys {
+    margin: 25px auto;
+    border: 5px solid white;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-size: 30px;
+    /*espaço entre o conteudo e borda*/
+    padding:15px 20px;
+    font-family: Lato, sans-serif;
+}
+
+.label {
+    background: rgba(0, 0, 0, 0.299);
+    color: white;
+    font-size: 20px;
+    /*2px top e bottom; 10 px left e right*/
+    padding: 2px 10px;
+    font-family: Lato, sans-serif;
+}
+
+#user-trys {
+    color: white;
+    font-weight: bold;
+}
+
+#value-sub {
+    height: 30px;
+
+    /*para centrar: (ou fazer no body e depois form)*/
+    display: block;
+    margin : 0 auto;
+
+    text-align: center;
+    font-size: 15px;
+}
+
+#btn-sub {
+    padding: 5px;
+    margin: 10px;
+    border: 3px solid black;
+    font-size: 30px;
+    border-radius: 4px;
+}
+
+#btn-sub:hover {
+    cursor: pointer;
+    background: #9f0335;
 }
