@@ -37,7 +37,6 @@ function verificaNum() {
         tentaMax--;
         tentativas(tentaMax,number);
     }
-    console.log(number);
 }
 
 function main(){
