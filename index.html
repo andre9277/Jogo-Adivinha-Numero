@@ -10,15 +10,23 @@
         <header>
             <h1> Adivinha o Número</h1>
         </header>
-        <div class="numb-trys">
-            <div id="user-label" class="label">Nº de tentativas restantes:</div>
-            <span id="user-trys">3</span> 
+        <div id="container">
+            <div class="numb-trys">
+                <div id="user-label" class="label">Nº de tentativas restantes:</div>
+                <span id="user-trys">3</span> 
+            </div>
+            <form>
+                <!--type=number. Assim só aceita numeros-->
+                <input type="number" id="value-sub" placeholder="Digite um número de 1a100.">
+                <button type="button" id="btn-sub">Adivinhe!</button>
+                <!--<input type="submit" id="btn-sub" value="Adivinhe"> >-->
+            </form>
+            <div class="result">
+                <p id="output-text"></p>
+                <p id="palpite-text"></p>
+            </div>
+
         </div>
-        <form>
-            <!--type=number. Assim só aceita numeros-->
-            <input type="number" id="value-sub" name="value-sub">
-            <input type="submit" id="btn-sub" value="Adivinhe"> 
-        </form>
-        <p>Ganhou!!</p>
+        <script src="app.js" charset="utf-8"></script>
     </body>
 </html>

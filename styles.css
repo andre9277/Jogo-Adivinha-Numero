@@ -27,7 +27,15 @@ form {
     display: inline-block;
 }
 
-p {
+#container {
+    border: 5px solid rgb(1, 0, 0);
+    height: 600px;
+    width: 750px;
+    margin: auto;
+    text-align: center;
+    
+}
+.result {
     font-size: 40px;
     padding: 20px;
 }
